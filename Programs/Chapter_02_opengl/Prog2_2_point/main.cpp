@@ -10,12 +10,12 @@ GLuint vao[numVAOs];
 
 GLuint createShaderProgram() {
 	const char *vshaderSource =
-		"#version 430    \n"
+		"#version 410    \n"
 		"void main(void) \n"
 		"{ gl_Position = vec4(0.0, 0.0, 0.0, 1.0); }";
 
 	const char *fshaderSource =
-		"#version 430    \n"
+		"#version 410    \n"
 		"out vec4 color; \n"
 		"void main(void) \n"
 		"{ color = vec4(0.0, 0.0, 1.0, 1.0); }";
